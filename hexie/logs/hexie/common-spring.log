@@ -1,0 +1,991 @@
+13:21:29.339 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8ecf5c7: startup date [Fri Sep 09 13:21:29 CST 2016]; root of context hierarchy
+13:21:36.880 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'requestMappingHandlerMapping' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=requestMappingHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=requestMappingHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/yumu/hexie/common/config/WebConfig.class]]
+13:21:36.881 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'resourceHandlerMapping' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=resourceHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=resourceHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/yumu/hexie/common/config/WebConfig.class]]
+13:21:39.268 [main] INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+13:21:39.347 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+13:21:39.537 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appConfig' of type [class com.yumu.hexie.common.config.AppConfig$$EnhancerBySpringCGLIB$$13974262] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:21:39.805 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3d87437] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:21:40.173 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$4ceaaa55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:21:41.691 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 85 (http)
+13:21:41.917 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12584 ms
+13:21:43.038 [localhost-startStop-1] INFO  o.s.b.c.e.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+13:21:43.044 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'metricFilter' to: [/*]
+13:21:43.045 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:21:43.045 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+13:21:43.045 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+13:21:43.045 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'simpleCORSFilter' to: [/*]
+13:21:43.045 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+13:21:43.912 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+13:25:07.542 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ed8adc0: startup date [Fri Sep 09 13:25:07 CST 2016]; root of context hierarchy
+13:25:11.443 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'requestMappingHandlerMapping' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=requestMappingHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=requestMappingHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/yumu/hexie/common/config/WebConfig.class]]
+13:25:11.444 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'resourceHandlerMapping' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=resourceHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=resourceHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/yumu/hexie/common/config/WebConfig.class]]
+13:25:13.807 [main] INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+13:25:13.874 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+13:25:14.026 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appConfig' of type [class com.yumu.hexie.common.config.AppConfig$$EnhancerBySpringCGLIB$$a04df75e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:25:14.253 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$908f2933] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:25:14.598 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$d9a15f51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:25:15.737 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 85 (http)
+13:25:15.991 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8457 ms
+13:25:17.082 [localhost-startStop-1] INFO  o.s.b.c.e.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+13:25:17.090 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'metricFilter' to: [/*]
+13:25:17.091 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:25:17.091 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+13:25:17.092 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+13:25:17.092 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'simpleCORSFilter' to: [/*]
+13:25:17.092 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+13:25:17.758 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+13:25:43.957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logistics/{nu}/{com}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.commonsupport.logistics.Logistics>> com.yumu.hexie.web.common.LogisticsController.queryLogisticsInfo(java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:43.960 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/qiniu/token],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.common.QiniuController.getPostToken() throws com.qiniu.api.auth.AuthException,org.json.JSONException
+13:25:43.961 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/shared/{shareCode}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.common.ShareController.shared(com.yumu.hexie.model.user.User,java.lang.String,com.yumu.hexie.web.common.req.ShareInfoReq) throws java.lang.Exception
+13:25:43.966 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/checkSignature],methods=[POST],produces=[text/plain;charset=UTF-8]}" onto public java.lang.String com.yumu.hexie.web.common.WechatController.process(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+13:25:43.966 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/checkSignature],methods=[GET]}" onto public java.lang.String com.yumu.hexie.web.common.WechatController.checkSignature(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:43.967 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderNotify],methods=[POST],produces=[text/plain;charset=UTF-8]}" onto public java.lang.String com.yumu.hexie.web.common.WechatController.orderNotify(com.yumu.hexie.integration.wechat.entity.common.PaymentOrderResult) throws java.lang.Exception
+13:25:43.967 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getPayJsSign/{prepayId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.common.WechatController.getJsSign(java.lang.String)
+13:25:43.968 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUrlJsSign],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.common.WechatController.getUrlJsSign(com.yumu.hexie.web.common.req.UrlSignReq)
+13:25:43.972 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/query/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.web.home.vo.BaojieListVO>> com.yumu.hexie.web.home.BaojieController.query(com.yumu.hexie.model.user.User,int)
+13:25:43.972 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/get/{billId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.vo.BaojieDetailVO> com.yumu.hexie.web.home.BaojieController.query(com.yumu.hexie.model.user.User,long)
+13:25:43.972 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/cancel/{billId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.BaojieController.cancel(com.yumu.hexie.model.user.User,long)
+13:25:43.973 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/normal],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.Long> com.yumu.hexie.web.home.BaojieController.createNormalOrder(com.yumu.hexie.model.user.User,com.yumu.hexie.service.o2o.req.BaojieReq)
+13:25:43.973 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/serviceItem/{itemId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.ServiceItem> com.yumu.hexie.web.home.BaojieController.queryItem(long)
+13:25:43.973 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/serviceItems/{typeId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.ServiceItem>> com.yumu.hexie.web.home.BaojieController.queryTypes(long)
+13:25:43.973 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/normal/payinfo/{itemId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.resp.BaojieNormalPayPage> com.yumu.hexie.web.home.BaojieController.normalPayPage(com.yumu.hexie.model.user.User,long)
+13:25:43.974 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/pay/{billId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.home.BaojieController.pay(com.yumu.hexie.model.user.User,long)
+13:25:43.974 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/confirm/{billId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.BaojieController.confirm(com.yumu.hexie.model.user.User,long)
+13:25:43.974 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/notifyPayed/{orderId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.BaojieController.notifyPayed(long,com.yumu.hexie.model.user.User)
+13:25:43.975 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/flowerPlus/createFasuperOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.FlowerPlusController.createFasuperOrder(com.yumu.hexie.integration.daojia.flowerplus.FlowerPlusReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.976 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/flowerPlus/checkByRuleAndCount/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.FlowerPlusController.checkByRuleAndCount(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.976 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/flowerPlus/checkByRule/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.FlowerPlusController.checkByRule(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.977 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/gaofei/createGaofeiExperienceOrder],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.GaofeiController.createGaofeiExperienceOrder(com.yumu.hexie.integration.daojia.gaofei.GaofeiReq,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:43.977 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/gaofei/createGaofeiYuyueOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.GaofeiController.createGaofeiYuyueOrder(com.yumu.hexie.integration.daojia.gaofei.GaofeiReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.977 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/gaofei/checkByRule/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.GaofeiController.checkByRule(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.978 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/homeService/queryYuyueRuleInfo/{yuyueRuleId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.saleplan.YuyueRule> com.yumu.hexie.web.home.HomeServiceController.queryYuyueRuleInfo(long)
+13:25:43.978 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aixiangban/createOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.HomeServiceController.createOrder(com.yumu.hexie.integration.daojia.home.AixiangbanReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.979 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jiuye/createOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.JiuyeController.createOrder(com.yumu.hexie.integration.daojia.jiuye.JiuyeReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.980 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toHome/handpick],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.oldversion.thirdpartyorder.HomeService>> com.yumu.hexie.web.home.ToHomeController.getHandpickService() throws java.lang.Exception
+13:25:43.980 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toHome/service/{serviceType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.oldversion.thirdpartyorder.HomeService>> com.yumu.hexie.web.home.ToHomeController.getServiceByServiceType(int) throws java.lang.Exception
+13:25:43.981 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home/putToCart],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.ToHomeV2Controller.putToCart(com.yumu.hexie.model.localservice.HomeCart,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:43.981 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home/viewCartWithAddr],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.resp.CartWithAddressVO> com.yumu.hexie.web.home.ToHomeV2Controller.putToCart(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:43.983 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addUserCarInfo],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.UserCarInfo> com.yumu.hexie.web.home.UserCarInfoController.save(com.yumu.hexie.model.user.User,com.yumu.hexie.model.user.UserCarInfo) throws java.lang.Exception
+13:25:43.983 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/getBrandName],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.extreinfo.CarBrandName>> com.yumu.hexie.web.home.UserCarInfoController.getBrandName() throws java.lang.Exception
+13:25:43.983 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/getModelName/{brandName}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<java.lang.String>> com.yumu.hexie.web.home.UserCarInfoController.getModelName(java.lang.String) throws java.lang.Exception
+13:25:43.983 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/delete/{userCarInfoId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.UserCarInfoController.deleteUserCarInfo(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/query/{userCarInfoId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.UserCarInfo> com.yumu.hexie.web.home.UserCarInfoController.queryUserCarInfoById(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/default/{userCarInfoId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.UserCarInfoController.defaultUserCarInfo(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfos],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.UserCarInfo>> com.yumu.hexie.web.home.UserCarInfoController.queryUserCarInfoList(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:43.985 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/weizhuang/createWeiZhuangYuyueOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.WeiZhuangController.createWeiZhuangYuyueOrder(com.yumu.hexie.integration.daojia.weizhuangwang.WeiZhuangWangReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:43.988 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/bill/{billId}/cancel],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.YunxiyiController.cancel(long,com.yumu.hexie.model.user.User)
+13:25:43.988 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/serviceItems/{region}/{type}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.resp.XiyiItemsVO> com.yumu.hexie.web.home.YunxiyiController.queryItems(long,long)
+13:25:43.988 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/pay/{orderId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.home.YunxiyiController.requestPay(long,com.yumu.hexie.model.user.User)
+13:25:43.989 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/bills/{page}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.web.home.resp.XiyiListItem>> com.yumu.hexie.web.home.YunxiyiController.queryBillList(long,com.yumu.hexie.model.user.User)
+13:25:43.989 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/bill/{billId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.resp.XiyiDetail> com.yumu.hexie.web.home.YunxiyiController.queryBill(long,com.yumu.hexie.model.user.User)
+13:25:43.989 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/bill/{billId}/signed],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.YunxiyiController.signed(long,com.yumu.hexie.model.user.User)
+13:25:43.989 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/serviceTypes/{region}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.ServiceType>> com.yumu.hexie.web.home.YunxiyiController.queryTypes(long)
+13:25:43.989 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/notifyPayed/{orderId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.YunxiyiController.notifyPayed(long,com.yumu.hexie.model.user.User)
+13:25:43.990 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/createOrder],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.bill.YunXiyiBill> com.yumu.hexie.web.home.YunxiyiController.createOrder(com.yumu.hexie.service.o2o.req.CommonBillReq,com.yumu.hexie.model.user.User)
+13:25:43.990 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/banners],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.page.resp.BannersVO> com.yumu.hexie.web.page.BannerController.getBanners(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:43.991 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/banner/{bannerType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.view.Banner>> com.yumu.hexie.web.page.BannerController.getBannerByBannerType(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+13:25:43.991 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pageconfig/{tempKey}],methods=[GET]}" onto public java.lang.String com.yumu.hexie.web.page.PageConfigController.process(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+13:25:43.995 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/query],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.service.repair.resp.RepairListItem>> com.yumu.hexie.web.repair.RepairController.query(com.yumu.hexie.model.user.User)
+13:25:43.995 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/query/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.service.repair.resp.RepairDetailItem> com.yumu.hexie.web.repair.RepairController.query(com.yumu.hexie.model.user.User,long)
+13:25:43.995 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/delete/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.delete(com.yumu.hexie.model.user.User,long)
+13:25:43.995 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/accept/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.accept(com.yumu.hexie.model.user.User,long)
+13:25:43.995 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/comment],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.comment(com.yumu.hexie.model.user.User,com.yumu.hexie.service.repair.req.RepairComment)
+13:25:43.996 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/finish/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.finish(com.yumu.hexie.model.user.User,long)
+13:25:43.996 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/cancel],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.cancel(com.yumu.hexie.model.user.User,com.yumu.hexie.service.repair.req.RepairCancelReq)
+13:25:43.996 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/projects/{repairType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.repair.RepairProject>> com.yumu.hexie.web.repair.RepairController.queryProjects(int)
+13:25:43.996 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/project/{projectId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.repair.RepairReqPageVO> com.yumu.hexie.web.repair.RepairController.queryProject(com.yumu.hexie.model.user.User,long)
+13:25:43.996 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.Long> com.yumu.hexie.web.repair.RepairController.repair(com.yumu.hexie.model.user.User,com.yumu.hexie.vo.req.RepairOrderReq)
+13:25:43.997 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/payOffline],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.payOffline(com.yumu.hexie.model.user.User,com.yumu.hexie.service.repair.req.RepairPayReq)
+13:25:43.997 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/paySuccess/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.paySuccess(com.yumu.hexie.model.user.User,long)
+13:25:43.997 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/repair/query/{status}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.service.repair.resp.RepairListItem>> com.yumu.hexie.web.repair.RepairController.operatorQuery(com.yumu.hexie.model.user.User,int)
+13:25:43.997 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/repair/delete/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.deleteByOp(com.yumu.hexie.model.user.User,long)
+13:25:43.997 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/reassgin/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.Long> com.yumu.hexie.web.repair.RepairController.reassgin(com.yumu.hexie.model.user.User,long)
+13:25:43.998 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/repair/query/repairId/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.service.repair.resp.RepairDetailItem> com.yumu.hexie.web.repair.RepairController.operatorQueryById(com.yumu.hexie.model.user.User,long)
+13:25:43.998 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/repair/finish/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.finishByOperator(com.yumu.hexie.model.user.User,long)
+13:25:43.998 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/pay],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.repair.RepairController.pay(com.yumu.hexie.model.user.User,com.yumu.hexie.service.repair.req.RepairPayReq)
+13:25:43.999 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/carBrandlist],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.car.CarBrand>> com.yumu.hexie.web.sales.CarController.carBreadList() throws java.lang.Exception
+13:25:43.999 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/carStylelist/{brandId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.car.CarStyle>> com.yumu.hexie.web.sales.CarController.carStylelist(java.lang.String) throws java.lang.Exception
+13:25:44.000 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/carYearlist/{brandId}/{styleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.car.CarYear>> com.yumu.hexie.web.sales.CarController.carYearlist(java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:44.000 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastCarInfo/],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.car.OrderCarInfo> com.yumu.hexie.web.sales.CarController.carYearlist(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.000 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveTempOrderCarInfo],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.car.OrderCarInfo> com.yumu.hexie.web.sales.CarController.saveTempOrderCarInfo(com.yumu.hexie.model.market.car.OrderCarInfo,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.001 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/getCartWithAddr],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.sales.resp.MultiBuyInfo> com.yumu.hexie.web.sales.CollocationController.getCart(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.001 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/saveToCart],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.CollocationController.saveToCart(com.yumu.hexie.model.market.Cart,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/{collId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.Collocation> com.yumu.hexie.web.sales.CollocationController.collocation(long) throws java.lang.Exception
+13:25:44.002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/{salePlanType}/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.Collocation> com.yumu.hexie.web.sales.CollocationController.collocation(int,long) throws java.lang.Exception
+13:25:44.002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/renotify/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.CollocationController.renotify(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/notifyPayed/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.CollocationController.notifyPayed(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.006 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/comment],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.OrderController.comment(com.yumu.hexie.model.commonsupport.comment.Comment,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.006 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.getOrder(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.006 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/requestPay/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.sales.OrderController.requestPay(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.006 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getProduct/{productId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.commonsupport.info.Product> com.yumu.hexie.web.sales.OrderController.getProduct(long) throws java.lang.Exception
+13:25:44.006 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orders/status/{statusType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.market.ServiceOrder>> com.yumu.hexie.web.sales.OrderController.orders(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+13:25:44.007 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orders/status/onsale/{statusType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.market.ServiceOrder>> com.yumu.hexie.web.sales.OrderController.onSaleOrders(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+13:25:44.007 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orders/status/group/{statusType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.vo.RgroupOrder>> com.yumu.hexie.web.sales.OrderController.groupOrders(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+13:25:44.008 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryBuyInfo/{type}/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.sales.resp.BuyInfoVO> com.yumu.hexie.web.sales.OrderController.queryBuyInfo(com.yumu.hexie.model.user.User,int,long) throws java.lang.Exception
+13:25:44.008 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cancelOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.cancelOrder(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.008 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/signOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.signOrder(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.008 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getSupermarketOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.getOrderItem(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.008 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/supermarket/sendGoods/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.OrderController.sendGoods(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.009 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notifyPayed/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.OrderController.notifyPayed(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.009 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/createOrder],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.createOrder(com.yumu.hexie.vo.SingleItemOrder,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.009 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/createOrder4Cart],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.createOrder4Package(com.yumu.hexie.vo.CreateOrderReq,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.009 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getSupermarketOrderItems/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.market.OrderItem>> com.yumu.hexie.web.sales.OrderController.getSupermarketOrderItems(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.010 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orders/status/supermarket/{statusType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.market.ServiceOrder>> com.yumu.hexie.web.sales.OrderController.getSupermarketOrders(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+13:25:44.011 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getRgroupRule/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.distribution.RgroupAreaItem> com.yumu.hexie.web.sales.RgroupController.getRgroupRule(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.011 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rgroups/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.distribution.RgroupAreaItem>> com.yumu.hexie.web.sales.RgroupController.rgroups(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+13:25:44.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/onsales/{type}/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.distribution.OnSaleAreaItem>> com.yumu.hexie.web.sales.SaleController.orders(com.yumu.hexie.model.user.User,int,int) throws java.lang.Exception
+13:25:44.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getOnSaleRule/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.saleplan.SalePlan> com.yumu.hexie.web.sales.SaleController.getRgroupRule(long) throws java.lang.Exception
+13:25:44.014 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrders],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.oldversion.YuyueOrder>> com.yumu.hexie.web.sales.YuyueController.yuyueOrders(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.015 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrder/setServiceOrderId/{yuyueOrderId}/{serviceOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.YuyueController.setServiceOrderIdToYuyueOrder(long,long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.015 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrder/checkYuyueOrder/{yuyueOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.sales.YuyueController.checkYuyueOrder(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.015 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrders/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.sales.YuyueController.yuyueOrdersById(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.016 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrders/{productType}/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.BaseModel>> com.yumu.hexie.web.sales.YuyueController.yuyueOrdersAddInfo(com.yumu.hexie.model.user.User,long,int) throws java.lang.Exception
+13:25:44.020 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/addThread],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.shequ.CommunityController.addThread(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.Thread) throws java.lang.Exception
+13:25:44.021 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/updateThread],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<?> com.yumu.hexie.web.shequ.CommunityController.updateThread(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.Thread) throws java.lang.Exception
+13:25:44.023 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/deleteThread],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<?> com.yumu.hexie.web.shequ.CommunityController.deleteThread(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.Thread) throws java.lang.Exception
+13:25:44.024 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getThreadList/{filter}/{currPage}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.Thread>> com.yumu.hexie.web.shequ.CommunityController.getThreadList(com.yumu.hexie.model.user.User,com.yumu.hexie.model.community.Thread,java.lang.String,int) throws java.lang.Exception
+13:25:44.024 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/addComment],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.community.Thread> com.yumu.hexie.web.shequ.CommunityController.addComment(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.ThreadComment) throws java.lang.Exception
+13:25:44.024 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/deleteComment],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.deleteComment(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.ThreadComment) throws java.lang.Exception
+13:25:44.025 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getImgDetail/{threadId}/{index}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.getImgDetail(javax.servlet.http.HttpSession,long,int)
+13:25:44.025 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getMyPublish],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.Thread>> com.yumu.hexie.web.shequ.CommunityController.getMyPublish(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.025 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getThreadByThreadId],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.community.Thread> com.yumu.hexie.web.shequ.CommunityController.getThreadByThreadId(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.Thread) throws java.lang.Exception
+13:25:44.025 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getAccessToken],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.getAccessToken(javax.servlet.http.HttpSession)
+13:25:44.026 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/communityInfo/getCommunityInfo],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.CommunityInfo>> com.yumu.hexie.web.shequ.CommunityController.getCommunityInfo(javax.servlet.http.HttpSession)
+13:25:44.026 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/annoucement/getAnnoucementList],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.Annoucement>> com.yumu.hexie.web.shequ.CommunityController.getAnnoucementList(javax.servlet.http.HttpSession)
+13:25:44.026 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUnreadComments],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.getUnreadComments(javax.servlet.http.HttpSession)
+13:25:44.026 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/updateUnreadComment/{threadUserId}/{threadId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.updateUnreadComment(javax.servlet.http.HttpSession,long,long)
+13:25:44.032 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sendNotification],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.WuyeController.sendNotification(javax.servlet.http.HttpSession)
+13:25:44.032 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getCouponsPayWuYe],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.shequ.WuyeController.getCoupons(javax.servlet.http.HttpSession)
+13:25:44.032 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getBillDetail],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.PaymentInfo> com.yumu.hexie.web.shequ.WuyeController.getBillDetail(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String)
+13:25:44.033 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addhexiehouse/{stmtId}/{houseId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.HexieHouse> com.yumu.hexie.web.shequ.WuyeController.addhouses(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:44.033 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getPrePayInfo],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.WechatPayInfo> com.yumu.hexie.web.shequ.WuyeController.getPrePayInfo(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:44.034 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/noticePayed],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.shequ.WuyeController.noticePayed(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:44.034 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hexiehouse/delete/{houseId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.integration.wuye.vo.HexieHouse>> com.yumu.hexie.web.shequ.WuyeController.deleteHouse(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+13:25:44.034 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hexiehouse/{stmtId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.HexieHouse> com.yumu.hexie.web.shequ.WuyeController.hexiehouses(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+13:25:44.035 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hexiehouses],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.integration.wuye.vo.HexieHouse>> com.yumu.hexie.web.shequ.WuyeController.hexiehouses(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.036 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/billList],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.resp.BillListVO> com.yumu.hexie.web.shequ.WuyeController.billList(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:44.037 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sendCoupons4WuyePay],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.WuyeController.sendCoupons(javax.servlet.http.HttpSession,java.lang.String,java.lang.String)
+13:25:44.039 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/paymentHistory],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.integration.wuye.vo.PayWater>> com.yumu.hexie.web.shequ.WuyeController.paymentHistory(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:44.040 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryPaymentDetail/{trade_water_id}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.PaymentInfo> com.yumu.hexie.web.shequ.WuyeController.queryPaymentDetail(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+13:25:44.040 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/quickPayBillList/{stmtId}/{currPage}/{totalCount}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.resp.BillListVO> com.yumu.hexie.web.shequ.WuyeController.quickPayBillList(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:44.041 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateCouponStatus],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.WuyeController.updateCouponStatus(javax.servlet.http.HttpSession)
+13:25:44.041 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/initSession4Test/{userId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.WuyeController.initSessionForTest(javax.servlet.http.HttpSession,java.lang.String)
+13:25:44.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryXiaoqus],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.Xiaoqu>> com.yumu.hexie.web.user.AddressController.queryXiaoqus()
+13:25:44.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/address/delete/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.user.AddressController.deleteAddress(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveAddressWithXiaoqu],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.Address> com.yumu.hexie.web.user.AddressController.saveWithXiaoqu(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,com.yumu.hexie.service.user.req.AddressReq) throws java.lang.Exception
+13:25:44.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/address/query/{addressId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.Address> com.yumu.hexie.web.user.AddressController.queryAddressById(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/address/default/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.user.AddressController.defaultAddress(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addresses],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.Address>> com.yumu.hexie.web.user.AddressController.queryAddressList(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.048 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/couponSummary],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.vo.CouponsSummary> com.yumu.hexie.web.user.CouponController.coupons(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.048 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/invalidCoupons/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.coupons(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+13:25:44.049 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/coupon/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.promotion.coupon.Coupon> com.yumu.hexie.web.user.CouponController.orderCoupon(java.lang.Long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.049 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/draw/{seedStr}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.promotion.coupon.Coupon> com.yumu.hexie.web.user.CouponController.drawCoupon(java.lang.String,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.049 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/couponSeed/{seedStr}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.CouponSeedVO> com.yumu.hexie.web.user.CouponController.couponSeed(java.lang.String,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.050 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/valid/{salePlanType}/{salePlanId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.findValidCoupons(int,long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.050 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/valid4Cart],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.findValidCoupons(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.050 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/validByOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.findValidCoupons(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.051 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/valid4HomeCart],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.valid4HomeCart(com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.053 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/messages/{currentPage}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.Message>> com.yumu.hexie.web.user.MessageController.messages(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+13:25:44.053 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pushFeedback],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.Feedback> com.yumu.hexie.web.user.MessageController.pushFeedback(com.yumu.hexie.model.user.User,com.yumu.hexie.web.user.req.ReplyReq) throws java.lang.Exception
+13:25:44.053 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/feedbacks/{messageId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.Feedback>> com.yumu.hexie.web.user.MessageController.queryFeedback(long) throws java.lang.Exception
+13:25:44.053 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/messageDetail/{messageId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.community.Message> com.yumu.hexie.web.user.MessageController.getMessageDetail(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.057 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userInfo],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.userInfo(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.057 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/profile],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.profile(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,java.lang.String,int) throws java.lang.Exception
+13:25:44.058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/{code}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.login(javax.servlet.http.HttpSession,java.lang.String) throws java.lang.Exception
+13:25:44.058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/bindWechat/{appId}/{code}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.bindBaofang(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,java.lang.String,java.lang.String) throws java.lang.Exception
+13:25:44.058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/loginBaofang/{code}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.loginBaofang(javax.servlet.http.HttpSession,java.lang.String) throws java.lang.Exception
+13:25:44.059 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getyzm],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.user.UserController.getYzm(com.yumu.hexie.web.user.req.MobileYzm,com.yumu.hexie.model.user.User) throws java.lang.Exception
+13:25:44.059 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/savePersonInfo/{captcha}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.savePersonInfo(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+13:25:44.059 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/simpleRegister],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.simpleRegister(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,com.yumu.hexie.web.user.req.SimpleRegisterReq) throws java.lang.Exception
+13:25:44.060 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.saveWithCaptcha(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,com.yumu.hexie.web.user.req.RegisterReq) throws java.lang.Exception
+13:25:44.061 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notices/read/{noticeId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.user.UserNoticeController.read(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+13:25:44.061 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notices/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.UserNotice>> com.yumu.hexie.web.user.UserNoticeController.queryByNum(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+13:25:44.072 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:25:44.072 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:25:44.172 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:25:44.173 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:25:44.173 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/js/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:25:44.344 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ed8adc0: startup date [Fri Sep 09 13:25:07 CST 2016]; root of context hierarchy
+13:25:44.468 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+13:25:46.188 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.189 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.191 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+13:25:46.191 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.192 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+13:25:46.192 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.193 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.194 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.195 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.196 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+13:25:46.197 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.197 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+13:25:46.808 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+13:25:46.831 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+13:25:46.842 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+13:25:46.848 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+13:25:46.939 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+13:25:46.951 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+13:25:46.960 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+13:25:46.967 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+13:25:46.974 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+13:25:46.979 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+13:25:46.985 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+13:25:46.996 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+13:25:47.004 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+13:25:47.010 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+13:25:47.346 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 85 (http)
+13:29:16.100 [http-nio-85-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+13:29:16.140 [http-nio-85-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+13:39:04.006 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:47)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:36)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:210)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1900)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:129)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:201)
+	at redis.clients.util.RedisInputStream.readByte(RedisInputStream.java:40)
+	at redis.clients.jedis.Protocol.process(Protocol.java:141)
+	at redis.clients.jedis.Protocol.read(Protocol.java:205)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:297)
+	at redis.clients.jedis.Connection.getBinaryMultiBulkReply(Connection.java:233)
+	at redis.clients.jedis.BinaryJedis.smembers(BinaryJedis.java:1214)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1898)
+	... 23 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:108)
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:195)
+	... 30 common frames omitted
+15:25:57.340 [redisMessageListenerContainer-1] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+16:35:48.093 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d4de991: startup date [Fri Sep 09 16:35:48 CST 2016]; root of context hierarchy
+16:35:52.306 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'requestMappingHandlerMapping' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=requestMappingHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=requestMappingHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/yumu/hexie/common/config/WebConfig.class]]
+16:35:52.307 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'resourceHandlerMapping' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=resourceHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=webConfig; factoryMethodName=resourceHandlerMapping; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/yumu/hexie/common/config/WebConfig.class]]
+16:35:55.035 [main] INFO  o.s.c.s.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+16:35:55.129 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16:35:55.332 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'appConfig' of type [class com.yumu.hexie.common.config.AppConfig$$EnhancerBySpringCGLIB$$a13d54b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:35:55.707 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$917e868a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:35:56.136 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [class org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$da90bca8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:35:57.471 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 85 (http)
+16:35:57.744 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9659 ms
+16:35:59.034 [localhost-startStop-1] INFO  o.s.b.c.e.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+16:35:59.041 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'metricFilter' to: [/*]
+16:35:59.042 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:35:59.042 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+16:35:59.042 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+16:35:59.042 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'simpleCORSFilter' to: [/*]
+16:35:59.042 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+16:35:59.595 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+16:36:21.354 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logistics/{nu}/{com}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.commonsupport.logistics.Logistics>> com.yumu.hexie.web.common.LogisticsController.queryLogisticsInfo(java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.355 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/qiniu/token],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.common.QiniuController.getPostToken() throws com.qiniu.api.auth.AuthException,org.json.JSONException
+16:36:21.356 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/shared/{shareCode}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.common.ShareController.shared(com.yumu.hexie.model.user.User,java.lang.String,com.yumu.hexie.web.common.req.ShareInfoReq) throws java.lang.Exception
+16:36:21.359 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/checkSignature],methods=[POST],produces=[text/plain;charset=UTF-8]}" onto public java.lang.String com.yumu.hexie.web.common.WechatController.process(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+16:36:21.359 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/checkSignature],methods=[GET]}" onto public java.lang.String com.yumu.hexie.web.common.WechatController.checkSignature(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.359 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderNotify],methods=[POST],produces=[text/plain;charset=UTF-8]}" onto public java.lang.String com.yumu.hexie.web.common.WechatController.orderNotify(com.yumu.hexie.integration.wechat.entity.common.PaymentOrderResult) throws java.lang.Exception
+16:36:21.360 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getPayJsSign/{prepayId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.common.WechatController.getJsSign(java.lang.String)
+16:36:21.360 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUrlJsSign],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.common.WechatController.getUrlJsSign(com.yumu.hexie.web.common.req.UrlSignReq)
+16:36:21.365 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/query/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.web.home.vo.BaojieListVO>> com.yumu.hexie.web.home.BaojieController.query(com.yumu.hexie.model.user.User,int)
+16:36:21.365 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/get/{billId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.vo.BaojieDetailVO> com.yumu.hexie.web.home.BaojieController.query(com.yumu.hexie.model.user.User,long)
+16:36:21.365 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/cancel/{billId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.BaojieController.cancel(com.yumu.hexie.model.user.User,long)
+16:36:21.366 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/normal],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.Long> com.yumu.hexie.web.home.BaojieController.createNormalOrder(com.yumu.hexie.model.user.User,com.yumu.hexie.service.o2o.req.BaojieReq)
+16:36:21.366 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/serviceItem/{itemId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.ServiceItem> com.yumu.hexie.web.home.BaojieController.queryItem(long)
+16:36:21.366 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/serviceItems/{typeId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.ServiceItem>> com.yumu.hexie.web.home.BaojieController.queryTypes(long)
+16:36:21.366 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/normal/payinfo/{itemId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.resp.BaojieNormalPayPage> com.yumu.hexie.web.home.BaojieController.normalPayPage(com.yumu.hexie.model.user.User,long)
+16:36:21.367 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/pay/{billId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.home.BaojieController.pay(com.yumu.hexie.model.user.User,long)
+16:36:21.367 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/confirm/{billId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.BaojieController.confirm(com.yumu.hexie.model.user.User,long)
+16:36:21.367 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/baojie/notifyPayed/{orderId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.BaojieController.notifyPayed(long,com.yumu.hexie.model.user.User)
+16:36:21.368 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/flowerPlus/createFasuperOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.FlowerPlusController.createFasuperOrder(com.yumu.hexie.integration.daojia.flowerplus.FlowerPlusReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.369 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/flowerPlus/checkByRuleAndCount/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.FlowerPlusController.checkByRuleAndCount(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.369 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/flowerPlus/checkByRule/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.FlowerPlusController.checkByRule(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.370 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/gaofei/createGaofeiExperienceOrder],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.GaofeiController.createGaofeiExperienceOrder(com.yumu.hexie.integration.daojia.gaofei.GaofeiReq,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.370 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/gaofei/createGaofeiYuyueOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.GaofeiController.createGaofeiYuyueOrder(com.yumu.hexie.integration.daojia.gaofei.GaofeiReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.371 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/gaofei/checkByRule/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.GaofeiController.checkByRule(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.371 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/homeService/queryYuyueRuleInfo/{yuyueRuleId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.saleplan.YuyueRule> com.yumu.hexie.web.home.HomeServiceController.queryYuyueRuleInfo(long)
+16:36:21.372 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/aixiangban/createOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.HomeServiceController.createOrder(com.yumu.hexie.integration.daojia.home.AixiangbanReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.372 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jiuye/createOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.JiuyeController.createOrder(com.yumu.hexie.integration.daojia.jiuye.JiuyeReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.373 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toHome/handpick],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.oldversion.thirdpartyorder.HomeService>> com.yumu.hexie.web.home.ToHomeController.getHandpickService() throws java.lang.Exception
+16:36:21.373 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/toHome/service/{serviceType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.oldversion.thirdpartyorder.HomeService>> com.yumu.hexie.web.home.ToHomeController.getServiceByServiceType(int) throws java.lang.Exception
+16:36:21.375 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home/putToCart],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.ToHomeV2Controller.putToCart(com.yumu.hexie.model.localservice.HomeCart,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.375 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/home/viewCartWithAddr],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.resp.CartWithAddressVO> com.yumu.hexie.web.home.ToHomeV2Controller.putToCart(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.378 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addUserCarInfo],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.UserCarInfo> com.yumu.hexie.web.home.UserCarInfoController.save(com.yumu.hexie.model.user.User,com.yumu.hexie.model.user.UserCarInfo) throws java.lang.Exception
+16:36:21.378 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/delete/{userCarInfoId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.UserCarInfoController.deleteUserCarInfo(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.379 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/query/{userCarInfoId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.UserCarInfo> com.yumu.hexie.web.home.UserCarInfoController.queryUserCarInfoById(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.379 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/default/{userCarInfoId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.UserCarInfoController.defaultUserCarInfo(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.379 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfos],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.UserCarInfo>> com.yumu.hexie.web.home.UserCarInfoController.queryUserCarInfoList(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.379 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/getBrandName],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.extreinfo.CarBrandName>> com.yumu.hexie.web.home.UserCarInfoController.getBrandName() throws java.lang.Exception
+16:36:21.380 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userCarInfo/getModelName/{brandName}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<java.lang.String>> com.yumu.hexie.web.home.UserCarInfoController.getModelName(java.lang.String) throws java.lang.Exception
+16:36:21.380 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/weizhuang/createWeiZhuangYuyueOrder/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.home.WeiZhuangController.createWeiZhuangYuyueOrder(com.yumu.hexie.integration.daojia.weizhuangwang.WeiZhuangWangReq,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.384 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/bill/{billId}/cancel],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.YunxiyiController.cancel(long,com.yumu.hexie.model.user.User)
+16:36:21.385 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/serviceItems/{region}/{type}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.resp.XiyiItemsVO> com.yumu.hexie.web.home.YunxiyiController.queryItems(long,long)
+16:36:21.385 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/pay/{orderId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.home.YunxiyiController.requestPay(long,com.yumu.hexie.model.user.User)
+16:36:21.385 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/bills/{page}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.web.home.resp.XiyiListItem>> com.yumu.hexie.web.home.YunxiyiController.queryBillList(long,com.yumu.hexie.model.user.User)
+16:36:21.386 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/bill/{billId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.home.resp.XiyiDetail> com.yumu.hexie.web.home.YunxiyiController.queryBill(long,com.yumu.hexie.model.user.User)
+16:36:21.386 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/bill/{billId}/signed],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.YunxiyiController.signed(long,com.yumu.hexie.model.user.User)
+16:36:21.386 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/serviceTypes/{region}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.ServiceType>> com.yumu.hexie.web.home.YunxiyiController.queryTypes(long)
+16:36:21.387 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/notifyPayed/{orderId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.home.YunxiyiController.notifyPayed(long,com.yumu.hexie.model.user.User)
+16:36:21.387 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yunxiyi/createOrder],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.bill.YunXiyiBill> com.yumu.hexie.web.home.YunxiyiController.createOrder(com.yumu.hexie.service.o2o.req.CommonBillReq,com.yumu.hexie.model.user.User)
+16:36:21.388 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/banner/{bannerType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.view.Banner>> com.yumu.hexie.web.page.BannerController.getBannerByBannerType(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+16:36:21.388 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/banners],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.page.resp.BannersVO> com.yumu.hexie.web.page.BannerController.getBanners(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.389 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pageconfig/{tempKey}],methods=[GET]}" onto public java.lang.String com.yumu.hexie.web.page.PageConfigController.process(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws java.lang.Exception
+16:36:21.393 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/query],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.service.repair.resp.RepairListItem>> com.yumu.hexie.web.repair.RepairController.query(com.yumu.hexie.model.user.User)
+16:36:21.393 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/query/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.service.repair.resp.RepairDetailItem> com.yumu.hexie.web.repair.RepairController.query(com.yumu.hexie.model.user.User,long)
+16:36:21.393 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/delete/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.delete(com.yumu.hexie.model.user.User,long)
+16:36:21.394 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/accept/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.accept(com.yumu.hexie.model.user.User,long)
+16:36:21.394 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/comment],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.comment(com.yumu.hexie.model.user.User,com.yumu.hexie.service.repair.req.RepairComment)
+16:36:21.395 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/finish/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.finish(com.yumu.hexie.model.user.User,long)
+16:36:21.395 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/cancel],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.cancel(com.yumu.hexie.model.user.User,com.yumu.hexie.service.repair.req.RepairCancelReq)
+16:36:21.395 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/projects/{repairType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.repair.RepairProject>> com.yumu.hexie.web.repair.RepairController.queryProjects(int)
+16:36:21.395 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/project/{projectId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.repair.RepairReqPageVO> com.yumu.hexie.web.repair.RepairController.queryProject(com.yumu.hexie.model.user.User,long)
+16:36:21.396 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.Long> com.yumu.hexie.web.repair.RepairController.repair(com.yumu.hexie.model.user.User,com.yumu.hexie.vo.req.RepairOrderReq)
+16:36:21.396 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/payOffline],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.payOffline(com.yumu.hexie.model.user.User,com.yumu.hexie.service.repair.req.RepairPayReq)
+16:36:21.396 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/paySuccess/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.paySuccess(com.yumu.hexie.model.user.User,long)
+16:36:21.397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/repair/query/{status}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.service.repair.resp.RepairListItem>> com.yumu.hexie.web.repair.RepairController.operatorQuery(com.yumu.hexie.model.user.User,int)
+16:36:21.397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/repair/delete/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.deleteByOp(com.yumu.hexie.model.user.User,long)
+16:36:21.397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/reassgin/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.Long> com.yumu.hexie.web.repair.RepairController.reassgin(com.yumu.hexie.model.user.User,long)
+16:36:21.397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/repair/query/repairId/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.service.repair.resp.RepairDetailItem> com.yumu.hexie.web.repair.RepairController.operatorQueryById(com.yumu.hexie.model.user.User,long)
+16:36:21.398 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/operator/repair/finish/{repairOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.repair.RepairController.finishByOperator(com.yumu.hexie.model.user.User,long)
+16:36:21.398 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/repair/pay],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.repair.RepairController.pay(com.yumu.hexie.model.user.User,com.yumu.hexie.service.repair.req.RepairPayReq)
+16:36:21.399 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/carBrandlist],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.car.CarBrand>> com.yumu.hexie.web.sales.CarController.carBreadList() throws java.lang.Exception
+16:36:21.400 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/carStylelist/{brandId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.car.CarStyle>> com.yumu.hexie.web.sales.CarController.carStylelist(java.lang.String) throws java.lang.Exception
+16:36:21.400 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/carYearlist/{brandId}/{styleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.car.CarYear>> com.yumu.hexie.web.sales.CarController.carYearlist(java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.400 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/lastCarInfo/],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.car.OrderCarInfo> com.yumu.hexie.web.sales.CarController.carYearlist(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.401 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveTempOrderCarInfo],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.car.OrderCarInfo> com.yumu.hexie.web.sales.CarController.saveTempOrderCarInfo(com.yumu.hexie.model.market.car.OrderCarInfo,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.402 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/saveToCart],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.CollocationController.saveToCart(com.yumu.hexie.model.market.Cart,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.402 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/{collId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.Collocation> com.yumu.hexie.web.sales.CollocationController.collocation(long) throws java.lang.Exception
+16:36:21.403 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/{salePlanType}/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.Collocation> com.yumu.hexie.web.sales.CollocationController.collocation(int,long) throws java.lang.Exception
+16:36:21.403 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/renotify/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.CollocationController.renotify(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.403 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/notifyPayed/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.CollocationController.notifyPayed(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.404 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/collocation/getCartWithAddr],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.sales.resp.MultiBuyInfo> com.yumu.hexie.web.sales.CollocationController.getCart(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.408 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/comment],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.OrderController.comment(com.yumu.hexie.model.commonsupport.comment.Comment,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.408 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.getOrder(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.409 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/requestPay/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wechat.entity.common.JsSign> com.yumu.hexie.web.sales.OrderController.requestPay(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.409 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getProduct/{productId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.commonsupport.info.Product> com.yumu.hexie.web.sales.OrderController.getProduct(long) throws java.lang.Exception
+16:36:21.409 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orders/status/{statusType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.market.ServiceOrder>> com.yumu.hexie.web.sales.OrderController.orders(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+16:36:21.410 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orders/status/onsale/{statusType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.market.ServiceOrder>> com.yumu.hexie.web.sales.OrderController.onSaleOrders(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+16:36:21.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orders/status/group/{statusType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.vo.RgroupOrder>> com.yumu.hexie.web.sales.OrderController.groupOrders(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+16:36:21.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryBuyInfo/{type}/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.sales.resp.BuyInfoVO> com.yumu.hexie.web.sales.OrderController.queryBuyInfo(com.yumu.hexie.model.user.User,int,long) throws java.lang.Exception
+16:36:21.411 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cancelOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.cancelOrder(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.412 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/signOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.signOrder(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.412 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getSupermarketOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.getOrderItem(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.412 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/supermarket/sendGoods/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.OrderController.sendGoods(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.412 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/createOrder4Cart],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.createOrder4Package(com.yumu.hexie.vo.CreateOrderReq,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.413 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getSupermarketOrderItems/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.market.OrderItem>> com.yumu.hexie.web.sales.OrderController.getSupermarketOrderItems(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.413 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orders/status/supermarket/{statusType}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.market.ServiceOrder>> com.yumu.hexie.web.sales.OrderController.getSupermarketOrders(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+16:36:21.413 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notifyPayed/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.OrderController.notifyPayed(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.414 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/createOrder],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.ServiceOrder> com.yumu.hexie.web.sales.OrderController.createOrder(com.yumu.hexie.vo.SingleItemOrder,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.415 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getRgroupRule/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.distribution.RgroupAreaItem> com.yumu.hexie.web.sales.RgroupController.getRgroupRule(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.416 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rgroups/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.distribution.RgroupAreaItem>> com.yumu.hexie.web.sales.RgroupController.rgroups(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+16:36:21.417 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/onsales/{type}/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.distribution.OnSaleAreaItem>> com.yumu.hexie.web.sales.SaleController.orders(com.yumu.hexie.model.user.User,int,int) throws java.lang.Exception
+16:36:21.417 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getOnSaleRule/{ruleId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.market.saleplan.SalePlan> com.yumu.hexie.web.sales.SaleController.getRgroupRule(long) throws java.lang.Exception
+16:36:21.420 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrders],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.localservice.oldversion.YuyueOrder>> com.yumu.hexie.web.sales.YuyueController.yuyueOrders(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.420 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrder/setServiceOrderId/{yuyueOrderId}/{serviceOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.sales.YuyueController.setServiceOrderIdToYuyueOrder(long,long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.421 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrder/checkYuyueOrder/{yuyueOrderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.sales.YuyueController.checkYuyueOrder(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.422 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrders/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.localservice.oldversion.YuyueOrder> com.yumu.hexie.web.sales.YuyueController.yuyueOrdersById(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.422 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/yuyueOrders/{productType}/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.BaseModel>> com.yumu.hexie.web.sales.YuyueController.yuyueOrdersAddInfo(com.yumu.hexie.model.user.User,long,int) throws java.lang.Exception
+16:36:21.427 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/addThread],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.shequ.CommunityController.addThread(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.Thread) throws java.lang.Exception
+16:36:21.428 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/updateThread],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<?> com.yumu.hexie.web.shequ.CommunityController.updateThread(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.Thread) throws java.lang.Exception
+16:36:21.428 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/deleteThread],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<?> com.yumu.hexie.web.shequ.CommunityController.deleteThread(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.Thread) throws java.lang.Exception
+16:36:21.428 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getThreadList/{filter}/{currPage}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.Thread>> com.yumu.hexie.web.shequ.CommunityController.getThreadList(com.yumu.hexie.model.user.User,com.yumu.hexie.model.community.Thread,java.lang.String,int) throws java.lang.Exception
+16:36:21.429 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/addComment],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.community.Thread> com.yumu.hexie.web.shequ.CommunityController.addComment(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.ThreadComment) throws java.lang.Exception
+16:36:21.429 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/deleteComment],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.deleteComment(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.ThreadComment) throws java.lang.Exception
+16:36:21.429 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getImgDetail/{threadId}/{index}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.getImgDetail(javax.servlet.http.HttpSession,long,int)
+16:36:21.430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getMyPublish],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.Thread>> com.yumu.hexie.web.shequ.CommunityController.getMyPublish(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getThreadByThreadId],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.community.Thread> com.yumu.hexie.web.shequ.CommunityController.getThreadByThreadId(javax.servlet.http.HttpSession,com.yumu.hexie.model.community.Thread) throws java.lang.Exception
+16:36:21.430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/getAccessToken],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.getAccessToken(javax.servlet.http.HttpSession)
+16:36:21.430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/communityInfo/getCommunityInfo],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.CommunityInfo>> com.yumu.hexie.web.shequ.CommunityController.getCommunityInfo(javax.servlet.http.HttpSession)
+16:36:21.431 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/annoucement/getAnnoucementList],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.Annoucement>> com.yumu.hexie.web.shequ.CommunityController.getAnnoucementList(javax.servlet.http.HttpSession)
+16:36:21.431 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUnreadComments],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.getUnreadComments(javax.servlet.http.HttpSession)
+16:36:21.431 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thread/updateUnreadComment/{threadUserId}/{threadId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.CommunityController.updateUnreadComment(javax.servlet.http.HttpSession,long,long)
+16:36:21.435 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sendNotification],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.WuyeController.sendNotification(javax.servlet.http.HttpSession)
+16:36:21.435 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getBillDetail],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.PaymentInfo> com.yumu.hexie.web.shequ.WuyeController.getBillDetail(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String)
+16:36:21.436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addhexiehouse/{stmtId}/{houseId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.HexieHouse> com.yumu.hexie.web.shequ.WuyeController.addhouses(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getPrePayInfo],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.WechatPayInfo> com.yumu.hexie.web.shequ.WuyeController.getPrePayInfo(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/noticePayed],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.shequ.WuyeController.noticePayed(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.437 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hexiehouse/delete/{houseId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.integration.wuye.vo.HexieHouse>> com.yumu.hexie.web.shequ.WuyeController.deleteHouse(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+16:36:21.437 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hexiehouse/{stmtId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.HexieHouse> com.yumu.hexie.web.shequ.WuyeController.hexiehouses(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+16:36:21.437 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hexiehouses],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.integration.wuye.vo.HexieHouse>> com.yumu.hexie.web.shequ.WuyeController.hexiehouses(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.438 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/billList],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.resp.BillListVO> com.yumu.hexie.web.shequ.WuyeController.billList(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.438 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/sendCoupons4WuyePay],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.WuyeController.sendCoupons(javax.servlet.http.HttpSession,java.lang.String,java.lang.String)
+16:36:21.439 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/paymentHistory],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.integration.wuye.vo.PayWater>> com.yumu.hexie.web.shequ.WuyeController.paymentHistory(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.439 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryPaymentDetail/{trade_water_id}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.vo.PaymentInfo> com.yumu.hexie.web.shequ.WuyeController.queryPaymentDetail(com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+16:36:21.440 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/quickPayBillList/{stmtId}/{currPage}/{totalCount}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.integration.wuye.resp.BillListVO> com.yumu.hexie.web.shequ.WuyeController.quickPayBillList(com.yumu.hexie.model.user.User,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.440 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/updateCouponStatus],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.WuyeController.updateCouponStatus(javax.servlet.http.HttpSession)
+16:36:21.440 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/initSession4Test/{userId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult com.yumu.hexie.web.shequ.WuyeController.initSessionForTest(javax.servlet.http.HttpSession,java.lang.String)
+16:36:21.441 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getCouponsPayWuYe],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.shequ.WuyeController.getCoupons(javax.servlet.http.HttpSession)
+16:36:21.443 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/addresses],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.Address>> com.yumu.hexie.web.user.AddressController.queryAddressList(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.444 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/queryXiaoqus],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.Xiaoqu>> com.yumu.hexie.web.user.AddressController.queryXiaoqus()
+16:36:21.445 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/address/delete/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.user.AddressController.deleteAddress(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.445 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/saveAddressWithXiaoqu],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.Address> com.yumu.hexie.web.user.AddressController.saveWithXiaoqu(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,com.yumu.hexie.service.user.req.AddressReq) throws java.lang.Exception
+16:36:21.446 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/address/query/{addressId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.Address> com.yumu.hexie.web.user.AddressController.queryAddressById(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.446 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/address/default/{addressId}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.user.AddressController.defaultAddress(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/valid/{salePlanType}/{salePlanId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.findValidCoupons(int,long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/validByOrder/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.findValidCoupons(long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/valid4Cart],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.findValidCoupons(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.451 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/valid4HomeCart],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.valid4HomeCart(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.451 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/coupon/{orderId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.promotion.coupon.Coupon> com.yumu.hexie.web.user.CouponController.orderCoupon(java.lang.Long,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.451 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/coupon/draw/{seedStr}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.promotion.coupon.Coupon> com.yumu.hexie.web.user.CouponController.drawCoupon(java.lang.String,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.452 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/couponSeed/{seedStr}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.CouponSeedVO> com.yumu.hexie.web.user.CouponController.couponSeed(java.lang.String,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.452 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/invalidCoupons/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.promotion.coupon.Coupon>> com.yumu.hexie.web.user.CouponController.coupons(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+16:36:21.453 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/couponSummary],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.vo.CouponsSummary> com.yumu.hexie.web.user.CouponController.coupons(com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.454 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/messages/{currentPage}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.community.Message>> com.yumu.hexie.web.user.MessageController.messages(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+16:36:21.454 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/messageDetail/{messageId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.community.Message> com.yumu.hexie.web.user.MessageController.getMessageDetail(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.455 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/pushFeedback],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.model.user.Feedback> com.yumu.hexie.web.user.MessageController.pushFeedback(com.yumu.hexie.model.user.User,com.yumu.hexie.web.user.req.ReplyReq) throws java.lang.Exception
+16:36:21.455 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/feedbacks/{messageId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.Feedback>> com.yumu.hexie.web.user.MessageController.queryFeedback(long) throws java.lang.Exception
+16:36:21.457 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userInfo],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.userInfo(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/profile],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.profile(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,java.lang.String,int) throws java.lang.Exception
+16:36:21.458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/savePersonInfo/{captcha}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.savePersonInfo(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,com.yumu.hexie.model.user.User,java.lang.String) throws java.lang.Exception
+16:36:21.458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/simpleRegister],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.simpleRegister(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,com.yumu.hexie.web.user.req.SimpleRegisterReq) throws java.lang.Exception
+16:36:21.458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/register],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.saveWithCaptcha(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,com.yumu.hexie.web.user.req.RegisterReq) throws java.lang.Exception
+16:36:21.459 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/{code}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.login(javax.servlet.http.HttpSession,java.lang.String) throws java.lang.Exception
+16:36:21.459 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getyzm],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.user.UserController.getYzm(com.yumu.hexie.web.user.req.MobileYzm,com.yumu.hexie.model.user.User) throws java.lang.Exception
+16:36:21.459 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/bindWechat/{appId}/{code}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.bindBaofang(javax.servlet.http.HttpSession,com.yumu.hexie.model.user.User,java.lang.String,java.lang.String) throws java.lang.Exception
+16:36:21.460 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/loginBaofang/{code}],methods=[POST]}" onto public com.yumu.hexie.web.BaseResult<com.yumu.hexie.web.user.resp.UserInfo> com.yumu.hexie.web.user.UserController.loginBaofang(javax.servlet.http.HttpSession,java.lang.String) throws java.lang.Exception
+16:36:21.460 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notices/read/{noticeId}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.lang.String> com.yumu.hexie.web.user.UserNoticeController.read(com.yumu.hexie.model.user.User,long) throws java.lang.Exception
+16:36:21.461 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/notices/{page}],methods=[GET]}" onto public com.yumu.hexie.web.BaseResult<java.util.List<com.yumu.hexie.model.user.UserNotice>> com.yumu.hexie.web.user.UserNoticeController.queryByNum(com.yumu.hexie.model.user.User,int) throws java.lang.Exception
+16:36:21.467 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:36:21.467 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:36:21.594 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/css/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:36:21.595 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:36:21.595 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/js/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:36:21.737 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d4de991: startup date [Fri Sep 09 16:35:48 CST 2016]; root of context hierarchy
+16:36:21.833 [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionHandler
+16:36:23.797 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:23.798 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:23.800 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+16:36:23.800 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:23.801 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:23.802 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+16:36:23.802 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:23.804 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+16:36:23.805 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:23.806 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:23.807 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:23.808 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+16:36:24.668 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:36:24.678 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+16:36:24.689 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+16:36:24.693 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+16:36:24.732 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+16:36:24.754 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+16:36:24.760 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+16:36:24.766 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+16:36:24.773 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+16:36:24.779 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+16:36:24.785 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+16:36:24.798 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+16:36:24.808 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+16:36:24.813 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+16:36:25.031 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 85 (http)
+16:38:48.714 [http-nio-85-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+16:38:48.781 [http-nio-85-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 67 ms
+10:06:51.534 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:47)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:36)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:210)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1900)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:129)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:201)
+	at redis.clients.util.RedisInputStream.readByte(RedisInputStream.java:40)
+	at redis.clients.jedis.Protocol.process(Protocol.java:141)
+	at redis.clients.jedis.Protocol.read(Protocol.java:205)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:297)
+	at redis.clients.jedis.Connection.getBinaryMultiBulkReply(Connection.java:233)
+	at redis.clients.jedis.BinaryJedis.smembers(BinaryJedis.java:1214)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1898)
+	... 22 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:108)
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:195)
+	... 29 common frames omitted
+10:07:06.350 [redisMessageListenerContainer-1] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+12:07:24.174 [redisMessageListenerContainer-47] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+14:07:39.383 [redisMessageListenerContainer-48] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+16:08:07.324 [redisMessageListenerContainer-49] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+17:48:38.172 [http-nio-85-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+17:48:39.913 [http-nio-85-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+18:08:22.666 [redisMessageListenerContainer-51] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+10:07:20.777 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:47)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:36)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:210)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1900)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:129)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:201)
+	at redis.clients.util.RedisInputStream.readByte(RedisInputStream.java:40)
+	at redis.clients.jedis.Protocol.process(Protocol.java:141)
+	at redis.clients.jedis.Protocol.read(Protocol.java:205)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:297)
+	at redis.clients.jedis.Connection.getBinaryMultiBulkReply(Connection.java:233)
+	at redis.clients.jedis.BinaryJedis.smembers(BinaryJedis.java:1214)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1898)
+	... 22 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:108)
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:195)
+	... 29 common frames omitted
+10:07:20.996 [redisMessageListenerContainer-52] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+10:07:29.088 [http-nio-85-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+10:07:31.863 [http-nio-85-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+11:07:06.351 [http-nio-85-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+11:07:07.707 [http-nio-85-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+12:07:07.297 [http-nio-85-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+12:07:08.716 [http-nio-85-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+12:07:38.820 [redisMessageListenerContainer-53] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+13:07:08.545 [http-nio-85-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+13:07:09.861 [http-nio-85-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+14:07:09.411 [http-nio-85-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+14:07:10.727 [http-nio-85-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+14:07:54.519 [redisMessageListenerContainer-54] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+15:07:10.374 [http-nio-85-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+15:07:11.738 [http-nio-85-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+16:07:11.471 [http-nio-85-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+16:07:13.235 [http-nio-85-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+16:08:09.919 [redisMessageListenerContainer-55] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+17:07:12.601 [http-nio-85-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+17:07:14.024 [http-nio-85-exec-10] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+18:07:13.438 [http-nio-85-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+18:07:14.764 [http-nio-85-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+18:08:25.816 [redisMessageListenerContainer-56] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+10:23:49.020 [redisMessageListenerContainer-57] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+10:23:57.769 [http-nio-85-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlLicenseService.asmx/InfoCheckS] in DispatcherServlet with name 'dispatcherServlet'
+10:23:58.288 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:162)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:50)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	... 25 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.UnknownHostException: svn-service.chinacloudapp.cn
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	... 28 common frames omitted
+Caused by: java.net.UnknownHostException: svn-service.chinacloudapp.cn
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 35 common frames omitted
+10:24:00.515 [http-nio-85-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/solo/webservices/XmlActivationService.asmx/ActivateInstallationLicenseFile] in DispatcherServlet with name 'dispatcherServlet'
+11:48:12.054 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:162)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:50)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	... 25 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.UnknownHostException: svn-service.chinacloudapp.cn
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	... 28 common frames omitted
+Caused by: java.net.UnknownHostException: svn-service.chinacloudapp.cn
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 35 common frames omitted
+11:49:12.004 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:162)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:50)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	... 25 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.UnknownHostException: svn-service.chinacloudapp.cn
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	... 28 common frames omitted
+Caused by: java.net.UnknownHostException: svn-service.chinacloudapp.cn
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 35 common frames omitted
+11:49:34.897 [http-nio-85-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/cgi-bin/micromsg-bin/heartbeat] in DispatcherServlet with name 'dispatcherServlet'
+11:50:12.006 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:162)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:50)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	... 25 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.UnknownHostException: svn-service.chinacloudapp.cn
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	... 28 common frames omitted
+Caused by: java.net.UnknownHostException: svn-service.chinacloudapp.cn
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 35 common frames omitted
+12:24:08.078 [redisMessageListenerContainer-58] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+13:06:04.129 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:47)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:36)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:210)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1900)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:129)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:201)
+	at redis.clients.util.RedisInputStream.readByte(RedisInputStream.java:40)
+	at redis.clients.jedis.Protocol.process(Protocol.java:141)
+	at redis.clients.jedis.Protocol.read(Protocol.java:205)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:297)
+	at redis.clients.jedis.Connection.getBinaryMultiBulkReply(Connection.java:233)
+	at redis.clients.jedis.BinaryJedis.smembers(BinaryJedis.java:1214)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1898)
+	... 22 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:108)
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:195)
+	... 29 common frames omitted
+13:07:02.325 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:162)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:251)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:58)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:128)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:91)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:78)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:178)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:50)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:99)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:12)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:155)
+	... 25 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:164)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:82)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1641)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	... 28 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:158)
+	... 35 common frames omitted
+14:24:23.730 [redisMessageListenerContainer-59] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms
+14:37:04.003 [pool-1-thread-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task.
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:47)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:36)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:210)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1900)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:129)
+	at org.springframework.data.redis.core.DefaultSetOperations$7.doInRedis(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:191)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:153)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:86)
+	at org.springframework.data.redis.core.DefaultSetOperations.members(DefaultSetOperations.java:126)
+	at org.springframework.data.redis.core.DefaultBoundSetOperations.members(DefaultBoundSetOperations.java:91)
+	at org.springframework.session.data.redis.RedisSessionExpirationPolicy.cleanExpiredSessions(RedisSessionExpirationPolicy.java:111)
+	at org.springframework.session.data.redis.RedisOperationsSessionRepository.cleanupExpiredSessions(RedisOperationsSessionRepository.java:216)
+	at sun.reflect.GeneratedMethodAccessor132.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:201)
+	at redis.clients.util.RedisInputStream.readByte(RedisInputStream.java:40)
+	at redis.clients.jedis.Protocol.process(Protocol.java:141)
+	at redis.clients.jedis.Protocol.read(Protocol.java:205)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:297)
+	at redis.clients.jedis.Connection.getBinaryMultiBulkReply(Connection.java:233)
+	at redis.clients.jedis.BinaryJedis.smembers(BinaryJedis.java:1214)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.sMembers(JedisConnection.java:1898)
+	... 22 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.net.SocketInputStream.read(SocketInputStream.java:108)
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:195)
+	... 29 common frames omitted
+16:24:39.436 [redisMessageListenerContainer-60] ERROR o.s.d.r.l.RedisMessageListenerContainer - Connection failure occurred. Restarting subscription task after 5000 ms

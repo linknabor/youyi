@@ -1,0 +1,258 @@
+13:29:17.088 [http-nio-85-exec-3] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:29:18.280 [http-nio-85-exec-3] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473398959884</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:29:18.285 [http-nio-85-exec-3] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473398959884</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:31:29.453 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:31:29.603 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473399091262</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:31:29.604 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473399091262</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:31:29.716 [http-nio-85-exec-7] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+13:31:29.865 [http-nio-85-exec-7] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+13:31:30.906 [http-nio-85-exec-10] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+13:31:30.967 [http-nio-85-exec-2] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:31:30.989 [http-nio-85-exec-10] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+13:31:31.005 [http-nio-85-exec-2] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473399092668</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:31:31.006 [http-nio-85-exec-2] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473399092668</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:31:44.199 [http-nio-85-exec-3] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+13:31:44.311 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:31:44.337 [http-nio-85-exec-3] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+13:31:44.349 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473399106012</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:31:44.349 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473399106012</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:31:49.184 [http-nio-85-exec-8] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+13:31:49.245 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:31:49.267 [http-nio-85-exec-8] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+13:31:49.291 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473399110966</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:31:49.292 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473399110966</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:31:53.669 [http-nio-85-exec-2] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:31:53.827 [http-nio-85-exec-2] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473399115497</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:31:53.827 [http-nio-85-exec-2] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473399115497</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:31:58.321 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:31:58.456 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473399120106</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:31:58.456 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473399120106</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:43:43.528 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:43:43.633 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473399825292</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:43:43.633 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473399825292</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:43:49.154 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:43:49.286 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473399830948</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:43:49.286 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473399830948</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:54:09.106 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:54:09.153 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473400450819</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:54:09.153 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473400450819</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:54:37.873 [http-nio-85-exec-6] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:54:37.918 [http-nio-85-exec-6] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473400479586</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:54:37.918 [http-nio-85-exec-6] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473400479586</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+13:55:32.517 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+13:55:32.627 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473400534290</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+13:55:32.628 [http-nio-85-exec-5] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473400534290</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+14:06:55.446 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+14:06:55.576 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473401217240</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+14:06:55.577 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473401217240</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:33:28.846 [http-nio-85-exec-4] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:33:29.063 [http-nio-85-exec-1] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:33:29.064 [http-nio-85-exec-4] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:33:29.111 [http-nio-85-exec-1] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410010768</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:33:29.111 [http-nio-85-exec-1] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410010768</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:33:29.771 [http-nio-85-exec-9] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:33:29.813 [http-nio-85-exec-5] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:33:29.893 [http-nio-85-exec-9] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410011565</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:33:29.893 [http-nio-85-exec-9] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410011565</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:33:29.920 [http-nio-85-exec-5] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:33:54.934 [http-nio-85-exec-6] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:33:55.037 [http-nio-85-exec-6] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:33:55.160 [http-nio-85-exec-10] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:33:55.311 [http-nio-85-exec-10] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410036988</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:33:55.311 [http-nio-85-exec-10] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410036988</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:34:08.228 [http-nio-85-exec-4] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:34:08.241 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:34:08.335 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410050019</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:34:08.335 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410050019</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:34:08.345 [http-nio-85-exec-4] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:34:09.284 [http-nio-85-exec-9] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:34:09.394 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:34:09.411 [http-nio-85-exec-9] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:34:09.427 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410051097</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:34:09.427 [http-nio-85-exec-8] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410051097</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:34:28.579 [http-nio-85-exec-10] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:34:28.692 [http-nio-85-exec-3] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:34:28.726 [http-nio-85-exec-10] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:34:28.739 [http-nio-85-exec-3] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410070410</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:34:28.740 [http-nio-85-exec-3] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410070410</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:34:41.324 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:34:41.460 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410083129</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:34:41.460 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410083129</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:34:41.476 [http-nio-85-exec-7] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:34:41.598 [http-nio-85-exec-7] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:34:43.307 [http-nio-85-exec-8] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:34:43.416 [http-nio-85-exec-9] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:34:43.435 [http-nio-85-exec-8] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:34:43.447 [http-nio-85-exec-9] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410085114</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:34:43.447 [http-nio-85-exec-9] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410085114</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:38:55.986 [http-nio-85-exec-3] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:38:56.079 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:38:56.579 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410338228</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:38:56.582 [http-nio-85-exec-3] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:38:56.585 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410338228</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:38:57.705 [http-nio-85-exec-6] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:38:57.793 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:38:57.826 [http-nio-85-exec-6] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:38:57.835 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410339509</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:38:57.835 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410339509</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:39:39.471 [http-nio-85-exec-9] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:39:39.554 [http-nio-85-exec-9] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:39:39.642 [http-nio-85-exec-10] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:39:39.768 [http-nio-85-exec-10] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410381447</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:39:39.768 [http-nio-85-exec-10] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410381447</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:39:42.510 [http-nio-85-exec-2] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:39:42.607 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:39:42.631 [http-nio-85-exec-2] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:39:42.649 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410384322</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:39:42.649 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410384322</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:40:02.621 [http-nio-85-exec-6] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:40:02.650 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:40:02.678 [http-nio-85-exec-6] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:40:02.691 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410404354</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:40:02.691 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410404354</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:42:52.724 [http-nio-85-exec-10] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:42:52.791 [http-nio-85-exec-10] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:42:52.927 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:42:53.018 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410574686</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:42:53.019 [http-nio-85-exec-4] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410574686</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:42:54.210 [http-nio-85-exec-1] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:42:54.259 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:42:54.279 [http-nio-85-exec-1] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+
+16:42:54.291 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410575967</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:42:54.292 [http-nio-85-exec-7] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410575967</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:43:47.784 [http-nio-85-exec-7] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/getBillListMSDO.do?user_id=130428400000000013&pay_status=02&startDate=&endDate=&curr_page=1&total_count=0
+16:43:47.866 [http-nio-85-exec-1] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:43:47.867 [http-nio-85-exec-7] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":"00","data":{}}
+
+16:43:47.967 [http-nio-85-exec-1] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410629624</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:43:47.967 [http-nio-85-exec-1] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410629624</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:43:55.413 [http-nio-85-exec-3] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/quickPaySDO.do?stmt_id=160721157497197880&curr_page=1&total_count=0
+16:43:55.604 [http-nio-85-exec-3] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":"00","data":{"total_count":42,"bill_info":[{"bill_id":"160721800009970845","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年01月01日-2015年01月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970725","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年1月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970846","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年02月01日-2015年02月28日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970726","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年2月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970847","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年03月01日-2015年03月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970727","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年3月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970848","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年04月01日-2015年04月30日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970728","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年4月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970849","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年05月01日-2015年05月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970729","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年5月","pay_status":"01","fee_price":"0.01"}],"stmt_id":"160721157497197880","permit_skip_pay":"0","permit_skip_car_pay":"","park_discount_rule_conf":"1","park_discount_rule":"3-1"}}
+
+16:43:58.903 [http-nio-85-exec-9] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/quickPaySDO.do?stmt_id=160721157497197880&curr_page=2&total_count=42
+16:43:59.107 [http-nio-85-exec-9] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":"00","data":{"total_count":42,"bill_info":[{"bill_id":"160721800009970850","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年06月01日-2015年06月30日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970730","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年6月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970851","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年07月01日-2015年07月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970731","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年7月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970852","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年08月01日-2015年08月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970732","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年8月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970853","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年09月01日-2015年09月30日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970733","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年9月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970854","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年10月01日-2015年10月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970734","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年10月","pay_status":"01","fee_price":"0.01"}],"stmt_id":"160721157497197880","permit_skip_pay":"0","permit_skip_car_pay":"","park_discount_rule_conf":"1","park_discount_rule":"3-1"}}
+
+16:44:01.505 [http-nio-85-exec-2] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/quickPaySDO.do?stmt_id=160721157497197880&curr_page=3&total_count=42
+16:44:01.692 [http-nio-85-exec-2] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":"00","data":{"total_count":42,"bill_info":[{"bill_id":"160721800009970855","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年11月01日-2015年11月30日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970735","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年11月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970856","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年12月01日-2015年12月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970736","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2015年12月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970857","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2016年01月01日-2016年01月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970737","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2016年1月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970858","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2016年02月01日-2016年02月29日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970738","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2016年2月","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970859","is_onlinepay":"true","service_fee_name":"公共车位停车费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2016年03月01日-2016年03月31日","pay_status":"01","fee_price":"0.01"},{"bill_id":"160721800009970739","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号7室","service_fee_cycle":"2016年3月","pay_status":"01","fee_price":"0.01"}],"stmt_id":"160721157497197880","permit_skip_pay":"0","permit_skip_car_pay":"","park_discount_rule_conf":"1","park_discount_rule":"3-1"}}
+
+16:44:20.074 [http-nio-85-exec-8] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/quickPaySDO.do?stmt_id=160721782746504601&curr_page=1&total_count=42
+16:44:20.260 [http-nio-85-exec-8] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":"00","data":{"total_count":21,"bill_info":[{"bill_id":"160721800009970703","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年3月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970704","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年4月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970705","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年5月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970706","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年6月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970707","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年7月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970708","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年8月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970709","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年9月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970710","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年10月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970711","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年11月","pay_status":"02","fee_price":"0.01"},{"bill_id":"160721800009970712","is_onlinepay":"true","service_fee_name":"物业管理费","pay_cell_addr":"普陀区铜川路9502弄50号6室","service_fee_cycle":"2015年12月","pay_status":"02","fee_price":"0.01"}],"stmt_id":"160721782746504601","permit_skip_pay":"0","permit_skip_car_pay":"","park_discount_rule_conf":"1","park_discount_rule":"3-1"}}
+
+16:44:24.575 [http-nio-85-exec-10] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/getBillInfoMSDO.do?user_id=130428400000000013&stmt_id=160721782746504601&bill_id=160721800009970703,160721800009970704,
+16:44:24.645 [http-nio-85-exec-6] ERROR c.y.h.i.s.SystemConfigUtil - REQ:http://test.e-shequ.com/baofang/bk/refreshCache?bindAppId=wx9ffe0a2b5a64a285&key=JS_TOKEN
+16:44:24.680 [http-nio-85-exec-10] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":"00","data":{"fee_data":[{"sect_name":"真吾小区","city_name":"上海市","cell_addr":"普陀区铜川路9502弄50号6室","cnst_area":"1.00","ver_no":"282197221215","fee_name":[{"service_fee_name":"物业管理费","fee_detail":[{"service_fee_cycle":"2015年3月","fee_price":"0.01"},{"service_fee_cycle":"2015年4月","fee_price":"0.01"}]}],"fee_price":"0.02"}],"total_fee_price":"0.02","mianBill":"","mianAmt":0}}
+
+16:44:24.695 [http-nio-85-exec-6] ERROR c.y.h.i.s.SystemConfigUtil - RESP:<Map xmlns=""><timestamp>1473410666375</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+
+16:44:24.695 [http-nio-85-exec-6] ERROR c.y.h.i.s.SystemConfigUtil - Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: <Map xmlns=""><timestamp>1473410666375</timestamp><status>404</status><error>Not Found</error><message>No message available</message><path>/refreshCache</path></Map>
+; line: 1, column: 2]
+16:44:24.701 [http-nio-85-exec-5] ERROR c.y.hexie.integration.wuye.WuyeUtil - REQ:http://test.e-shequ.com/baofang/mobileInterface/mobile/conponUseQuerySDO.do?user_id=130428400000000013
+16:44:24.772 [http-nio-85-exec-5] ERROR c.y.hexie.integration.wuye.WuyeUtil - RESP:{"result":""}
+

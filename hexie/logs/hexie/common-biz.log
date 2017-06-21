@@ -1,0 +1,142 @@
+13:31:29.687 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+13:31:29.687 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:31:29.687 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+13:31:29.688 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:31:29.688 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+13:31:29.688 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+13:31:30.899 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+13:31:30.900 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:31:30.900 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+13:31:30.900 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:31:30.900 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+13:31:30.900 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+13:31:44.195 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+13:31:44.195 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:31:44.195 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+13:31:44.195 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:31:44.195 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+13:31:44.195 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+13:31:49.178 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+13:31:49.178 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:31:49.178 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+13:31:49.178 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:31:49.178 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+13:31:49.178 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+13:54:09.185 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8085][false]
+13:54:09.201 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:54:09.201 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8084][false]
+13:54:09.206 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - subItemType 不可用
+13:54:09.206 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8083][false]
+13:54:09.212 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:54:37.917 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8085][false]
+13:54:37.935 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:54:37.935 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8084][false]
+13:54:37.941 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - subItemType 不可用
+13:54:37.941 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8083][false]
+13:54:37.947 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:55:32.504 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8085][false]
+13:55:32.511 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+13:55:32.511 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8084][false]
+13:55:32.514 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - subItemType 不可用
+13:55:32.515 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8083][false]
+13:55:32.520 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+14:06:55.440 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8085][false]
+14:06:55.447 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+14:06:55.447 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8084][false]
+14:06:55.453 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - subItemType 不可用
+14:06:55.454 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[3][3][302][6][null][8083][false]
+14:06:55.458 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:33:28.842 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:33:28.842 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:33:28.842 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:33:28.842 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:33:28.842 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:33:28.842 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:33:29.810 [http-nio-85-exec-5] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:33:29.811 [http-nio-85-exec-5] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:33:29.811 [http-nio-85-exec-5] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:33:29.811 [http-nio-85-exec-5] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:33:29.811 [http-nio-85-exec-5] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:33:29.811 [http-nio-85-exec-5] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:33:54.930 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:33:54.931 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:33:54.931 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:33:54.931 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:33:54.931 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:33:54.931 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:34:08.224 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:34:08.224 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:08.224 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:34:08.224 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:08.224 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:34:08.224 [http-nio-85-exec-4] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:34:09.280 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:34:09.280 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:09.280 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:34:09.280 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:09.280 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:34:09.280 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:34:28.575 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:34:28.575 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:28.575 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:34:28.575 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:28.575 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:34:28.575 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:34:41.474 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:34:41.474 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:41.474 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:34:41.474 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:41.474 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:34:41.474 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:34:43.304 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:34:43.304 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:43.304 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:34:43.304 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:34:43.304 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:34:43.304 [http-nio-85-exec-8] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:38:55.955 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:38:55.955 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:38:55.955 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:38:55.956 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:38:55.956 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:38:55.956 [http-nio-85-exec-3] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:38:57.702 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:38:57.702 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:38:57.702 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:38:57.702 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:38:57.702 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:38:57.702 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:39:39.466 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:39:39.466 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:39:39.466 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:39:39.466 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:39:39.466 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:39:39.466 [http-nio-85-exec-9] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:39:42.505 [http-nio-85-exec-2] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:39:42.505 [http-nio-85-exec-2] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:39:42.505 [http-nio-85-exec-2] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:39:42.505 [http-nio-85-exec-2] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:39:42.505 [http-nio-85-exec-2] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:39:42.505 [http-nio-85-exec-2] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:40:02.617 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:40:02.617 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:40:02.617 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:40:02.617 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:40:02.617 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:40:02.617 [http-nio-85-exec-6] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:42:52.721 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:42:52.721 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:42:52.721 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:42:52.721 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:42:52.721 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:42:52.721 [http-nio-85-exec-10] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:42:54.207 [http-nio-85-exec-1] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8085][false]
+16:42:54.207 [http-nio-85-exec-1] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:42:54.207 [http-nio-85-exec-1] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8084][false]
+16:42:54.207 [http-nio-85-exec-1] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - itemType 不可用
+16:42:54.207 [http-nio-85-exec-1] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][8083][false]
+16:42:54.207 [http-nio-85-exec-1] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:44:24.693 [http-nio-85-exec-5] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][7856][false]
+16:44:24.694 [http-nio-85-exec-5] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
+16:44:27.172 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - Check Coupon[4][0][0][0][null][7856][false]
+16:44:27.172 [http-nio-85-exec-7] WARN  c.y.h.s.s.impl.BaseOrderServiceImpl - 可以用（全部通过）
