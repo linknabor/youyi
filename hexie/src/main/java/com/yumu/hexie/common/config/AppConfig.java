@@ -95,7 +95,7 @@ public class AppConfig {
             connector.setScheme("https");
             protocol.setSSLEnabled(true);
             connector.setSecure(true);
-            connector.setPort(443);
+            connector.setPort(7443);
             protocol.setKeystoreFile(truststore.getAbsolutePath());
             protocol.setKeystorePass("hongzhitech20130110");
 //            protocol.setKeyAlias("springboot");
