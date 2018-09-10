@@ -520,6 +520,7 @@
     </build>
 	<modules> 
 		<module>common</module> 
-		<module>hexie</module> 
+		<module>hexie</module>
+		<module>hexiebk</module>
 	</modules> 
 </project>
