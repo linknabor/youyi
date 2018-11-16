@@ -204,9 +204,9 @@ public class TemplateMsgService {
     	msg.setData(vo);
     	msg.setTemplate_id(REPAIR_ASSIGN_TEMPLATE);
     	msg.setUrl(GotongServiceImpl.WEIXIU_NOTICE+ro.getId());
-    	msg.setTouser(op.getBindAppId());
+    	msg.setTouser(op.getBindOpenId());
     	log.error("template_id:"+REPAIR_ASSIGN_TEMPLATE);
-    	log.error("open_id:"+op.getBindAppId());
+    	log.error("open_id:"+op.getBindOpenId());
     	TemplateMsgService.sendMsg(msg,accessToken);
     	
     }
