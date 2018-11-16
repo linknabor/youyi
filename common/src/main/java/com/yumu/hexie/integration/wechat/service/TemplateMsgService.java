@@ -50,7 +50,6 @@ public class TemplateMsgService {
 		WechatResponse jsonObject;
 		try {
 			jsonObject = WeixinUtil.httpsRequest(TEMPLATE_MSG, "POST", JacksonJsonUtil.beanToJson(msg),accessToken);
-			System.out.println(jsonObject.getErrmsg());
 			if(jsonObject.getErrcode() == 0) {
 				return true;
 			}
@@ -92,41 +91,23 @@ public class TemplateMsgService {
 	
 	public static void main(String[] args) {
 		
-//		User user = new User();
-//		user.setCity("上海市");
-//		user.setCityId(20);	//20
-//		user.setProvince("上海");
-//		user.setProvinceId(19);
-//		user.setId(99999);	//10
-//		user.setOpenid("o_3DlwdnCLCz3AbTrZqj4HtKeQYY");	//
-//		user.setName("yiming"); 
-//		user.setNickname("yiming");
-//		user.setXiaoquName("宜川一村");
-//		user.setXiaoquId(12119);
-//		user.setCountyId(27);
-//		user.setWuyeId("CM150123400000001419");
-//		user.setHeadimgurl("http://wx.qlogo.cn/mmopen/ajNVdqHZLLBIY2Jial97RCIIyq0P4L8dhGicoYDlbNXqW5GJytxmkRDFdFlX9GScrsvo7vBuJuaEoMZeiaBPnb6AA/0");
-//		
-//		sendRegisterSuccessMsg(user,",accessToken");
-		String token = "15_F9M2qoZA8pp3O9YN-8hmLi5IDccZFANu-jfPMyPp_0Qu6xxeQo8AfXpecvL6I4UuvYL1-jTyOYz4oewTn3F_3lmIhAdmxm27rXFC0TWkl7UyHW00UoXz5LyyxgMKEvrWZZTUe6tZtFIB5IyFAHXhAIAVCS";
-		String open_id = "oAsnrv2s2bE_pmxpvecJv6iJ5Zdk";
-		RepairOrderVO vo = new RepairOrderVO();
-    	vo.setTitle(new TemplateItem("，您有新的维修单！"));
-    	vo.setOrderNum(new TemplateItem("1234313"));
-    	vo.setCustName(new TemplateItem("张三丰"));
-    	vo.setCustMobile(new TemplateItem("110"));
-    	vo.setCustAddr(new TemplateItem("三林路128号"));
-    	vo.setRemark(new TemplateItem("有新的维修单快来抢单吧"));
-  
-    	TemplateMsg<RepairOrderVO>msg = new TemplateMsg<RepairOrderVO>();
-    	msg.setData(vo);
-    	String template_id = "l6bB1tJp_4bB2uowA08P84-SB1whPIggzUGKiy4p6QE";
-    	System.out.println(REPAIR_ASSIGN_TEMPLATE);
-    	msg.setTemplate_id(REPAIR_ASSIGN_TEMPLATE);
-    	msg.setUrl(GotongServiceImpl.WEIXIU_NOTICE+"");
-    	msg.setTouser(open_id);
-    	TemplateMsgService.sendMsg(msg,token);
-    	System.out.println("发送成功！");
+		User user = new User();
+		user.setCity("上海市");
+		user.setCityId(20);	//20
+		user.setProvince("上海");
+		user.setProvinceId(19);
+		user.setId(99999);	//10
+		user.setOpenid("o_3DlwdnCLCz3AbTrZqj4HtKeQYY");	//
+		user.setName("yiming"); 
+		user.setNickname("yiming");
+		user.setXiaoquName("宜川一村");
+		user.setXiaoquId(12119);
+		user.setCountyId(27);
+		user.setWuyeId("CM150123400000001419");
+		user.setHeadimgurl("http://wx.qlogo.cn/mmopen/ajNVdqHZLLBIY2Jial97RCIIyq0P4L8dhGicoYDlbNXqW5GJytxmkRDFdFlX9GScrsvo7vBuJuaEoMZeiaBPnb6AA/0");
+		
+		sendRegisterSuccessMsg(user,",accessToken");
+		
 	}
 	
 	/**
