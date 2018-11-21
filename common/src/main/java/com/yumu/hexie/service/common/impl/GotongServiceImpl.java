@@ -69,7 +69,7 @@ public class GotongServiceImpl implements GotongService {
     @Override
     public void sendRepairAssignMsg(long opId,RepairOrder order,int distance){
         ServiceOperator op = serviceOperatorRepository.findOne(opId);
-        TemplateMsgService.sendRepairAssignMsg(order, op, systemConfigService.queryWXAToken());
+        TemplateMsgService.sendRepairAssignMsg(order, op, systemConfigService.queryWXAccToken(op.getBindAppId()).getToken());
     }
     @Async
     @Override
