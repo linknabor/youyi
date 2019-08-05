@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.yumu.hexie.common.Constants;
+import com.yumu.hexie.model.distribution.region.Region;
 import com.yumu.hexie.model.user.Address;
 import com.yumu.hexie.model.user.User;
 import com.yumu.hexie.model.user.Xiaoqu;
@@ -108,12 +109,13 @@ public class AddressController extends BaseController{
 //		BaseResult<Address> r = (BaseResult<Address>)BaseResult.successResult(address);
 //		return r;
 //    }
-//	@RequestMapping(value = "/regions/{type}/{parentId}", method = RequestMethod.GET)
-//	@ResponseBody
-//	public BaseResult<List<Region>> queryRegions(@PathVariable int type,@PathVariable long parentId){
-//		List<Region> regions = addressService.queryRegions(type, parentId);
-//		return BaseResult.successResult(regions);
-//	}
+	
+	@RequestMapping(value = "/regions/{type}/{parentId}", method = RequestMethod.GET)
+	@ResponseBody
+	public BaseResult<List<Region>> queryRegions(@PathVariable int type,@PathVariable long parentId){
+		List<Region> regions = addressService.queryRegions(type, parentId);
+		return BaseResult.successResult(regions);
+	}
 //	
 //	//add by zhangxiaonan for amap
 //	@RequestMapping(value = "/amap/{city}/{keyword}", method = RequestMethod.GET)
