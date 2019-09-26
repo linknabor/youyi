@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.yumu.hexie.common.Constants;
+import com.yumu.hexie.common.util.StringUtil;
+import com.yumu.hexie.model.distribution.region.AmapAddress;
 import com.yumu.hexie.model.distribution.region.Region;
 import com.yumu.hexie.model.user.Address;
 import com.yumu.hexie.model.user.User;
@@ -85,30 +87,30 @@ public class AddressController extends BaseController{
 		return r;
     }
 	
-//	@RequestMapping(value = "/addAddress", method = RequestMethod.POST)
-//	@ResponseBody
-//    public BaseResult<Address> save(HttpSession session,@ModelAttribute(Constants.USER)User user,@RequestBody Address address) throws Exception {
-//		if(StringUtil.isEmpty(address.getCity()) || StringUtil.isEmpty(address.getProvince()) || StringUtil.isEmpty(address.getCounty())){
-//			return BaseResult.fail("请重新选择所在区域");
-//		}
-//		if(StringUtil.isEmpty(address.getXiaoquName()) || StringUtil.isEmpty(address.getDetailAddress())){
-//			return BaseResult.fail("请重新填写小区和详细地址");
-//		}
-//		if (StringUtil.isEmpty(address.getReceiveName()) || StringUtil.isEmpty(address.getTel())) {
-//			return BaseResult.fail("请检查真实姓名和手机号码是否正确");
-//		}
-//		address.setUserId(user.getId());
-//		address = addressService.addAddress(address);
-//		//本方法内调用无法异步
-//		addressService.fillAmapInfo(address);
-//		if(user.getCurrentAddrId() == 0||addressService.queryAddressByUser(user.getId()).size()==1) {
-//			addressService.configDefaultAddress(user, address.getId());
-//			session.setAttribute(Constants.USER, user);
-//		}
-//		pointService.addZhima(user, 50, "zhima-address-"+user.getId()+"-"+address.getId());
-//		BaseResult<Address> r = (BaseResult<Address>)BaseResult.successResult(address);
-//		return r;
-//    }
+	@RequestMapping(value = "/addAddress", method = RequestMethod.POST)
+	@ResponseBody
+    public BaseResult<Address> save(HttpSession session,@ModelAttribute(Constants.USER)User user,@RequestBody Address address) throws Exception {
+		if(StringUtil.isEmpty(address.getCity()) || StringUtil.isEmpty(address.getProvince()) || StringUtil.isEmpty(address.getCounty())){
+			return BaseResult.fail("请重新选择所在区域");
+		}
+		if(StringUtil.isEmpty(address.getXiaoquName()) || StringUtil.isEmpty(address.getDetailAddress())){
+			return BaseResult.fail("请重新填写小区和详细地址");
+		}
+		if (StringUtil.isEmpty(address.getReceiveName()) || StringUtil.isEmpty(address.getTel())) {
+			return BaseResult.fail("请检查真实姓名和手机号码是否正确");
+		}
+		address.setUserId(user.getId());
+		address = addressService.addAddress(address);
+		//本方法内调用无法异步
+		addressService.fillAmapInfo(address);
+		if(user.getCurrentAddrId() == 0||addressService.queryAddressByUser(user.getId()).size()==1) {
+			addressService.configDefaultAddress(user, address.getId());
+			session.setAttribute(Constants.USER, user);
+		}
+		pointService.addZhima(user, 50, "zhima-address-"+user.getId()+"-"+address.getId());
+		BaseResult<Address> r = (BaseResult<Address>)BaseResult.successResult(address);
+		return r;
+    }
 	
 	@RequestMapping(value = "/regions/{type}/{parentId}", method = RequestMethod.GET)
 	@ResponseBody
