@@ -116,17 +116,17 @@ public class AddressController extends BaseController{
 		List<Region> regions = addressService.queryRegions(type, parentId);
 		return BaseResult.successResult(regions);
 	}
-//	
-//	//add by zhangxiaonan for amap
-//	@RequestMapping(value = "/amap/{city}/{keyword}", method = RequestMethod.GET)
-//	@ResponseBody
-//	public BaseResult<List<AmapAddress>> queryAmapYuntuLocal(@PathVariable String city,@PathVariable String keyword){
-//		return BaseResult.successResult(addressService.queryAmapYuntuLocal(city, keyword));
-//	}
-//	
-//	@RequestMapping(value = "/amap/{longitude}/{latitude}/around/", method = RequestMethod.GET)
-//	@ResponseBody
-//	public BaseResult<List<AmapAddress>> queryAround(@PathVariable double longitude, @PathVariable double latitude){
-//		return BaseResult.successResult(addressService.queryAroundByCoordinate(longitude, latitude));
-//	}
+	
+	//add by zhangxiaonan for amap
+	@RequestMapping(value = "/amap/{city}/{keyword}", method = RequestMethod.GET)
+	@ResponseBody
+	public BaseResult<List<AmapAddress>> queryAmapYuntuLocal(@PathVariable String city,@PathVariable String keyword){
+		return BaseResult.successResult(addressService.queryAmapYuntuLocal(city, keyword));
+	}
+	
+	@RequestMapping(value = "/amap/{longitude}/{latitude}/around/", method = RequestMethod.GET)
+	@ResponseBody
+	public BaseResult<List<AmapAddress>> queryAround(@PathVariable double longitude, @PathVariable double latitude){
+		return BaseResult.successResult(addressService.queryAroundByCoordinate(longitude, latitude));
+	}
 }
