@@ -15,7 +15,7 @@
         <org.springframework.security-version>3.2.5.RELEASE</org.springframework.security-version>
         <org.aspectj-version>1.7.4</org.aspectj-version>
         <org.slf4j-version>1.6.1</org.slf4j-version>
-        <logback.version>1.0.9</logback.version>
+        <logback.version>1.2.0</logback.version>
     </properties>
 	<dependencyManagement>
     <dependencies>
